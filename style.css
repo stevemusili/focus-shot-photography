@@ -44,40 +44,35 @@ nav div {
     align-items: center;
 }
 
-nav div a {
-    margin: 0 10px;
-}
-
-nav div a:hover {
-    color: #ff6347;
-}
-
-nav div h1 {
+nav h1 {
     margin: 0;
     font-size: 24px;
     color: #fff;
 }
 
-nav div ul {
+nav ul {
     list-style: none;
 
 }
 
-nav div ul li {
+nav ul li {
     margin: 0 10px;
-    display:flex;
     list-style: none;
+    display: inline-block; 
 }
 
-nav div ul li a {
+nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    list-style: none;
+    justify-content: space-between;
+    padding: 10px 15px; 
+    background:rgb(255, 72, 0);
+    border-radius:6px;
 }
 
-nav div ul li a:hover {
-    color: #ff6347;
+nav ul li a:hover {
+    color: rgb(255, 72, 0);
 }
 
 div.logo img {
@@ -85,6 +80,18 @@ div.logo img {
     height: 50px;
     margin-right: 10px;
 }
+
+div ul {
+    display: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+}
+
+div ul li {
+    margin: 0 10px;
+}   
 
 .hero {
     color: #fff;
@@ -117,14 +124,14 @@ section {
 
 .btn {
     display: inline-block;
-    background-color: #ff6347;
+    background-color: rgb(255, 72, 0);
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
 }
 .btn:hover {
-    background-color: #e5533d;
+    background-color: rgb(229, 83, 61);
 }
 
 #about {
@@ -272,7 +279,7 @@ section {
 }
 
 .contact-content button {
-    background-color: #ff6347;
+    background-color: rgb(255, 72, 0);
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -283,5 +290,5 @@ section {
 }
 
 .contact-content button:hover {
-    background-color: #e5533d;
+    background-color: rgb(229, 83, 61);
 }
