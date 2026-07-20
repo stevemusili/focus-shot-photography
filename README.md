@@ -21,6 +21,6 @@ https://github.com/stevemusili/focus-shot-photography.git
 https://stevemusili.github.io/focus-shot-photography/
 
 ## License
-**[Apache-2.0 license] (LICENSE)**
+This Project is licensed under the **[Apache-2.0 license] (LICENSE)**
 This project is for educational purposes only.
-Anyone and modify and customize it to their liking.
+Anyone can modify and customize it to their liking.
