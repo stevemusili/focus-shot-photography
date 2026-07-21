@@ -184,11 +184,12 @@ section {
 }
 
 .gallery-content {
-    display: flex;
+    display: center;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
     margin-top: 40px;
+    text-align: center;
 }
 
 .gallery-content img {
