@@ -1,3 +1,4 @@
+/* Home Section */
 body {
     font-family: "Roboto", sans-serif;
     background-color: #f4f4f4;
@@ -128,6 +129,8 @@ section {
     background-color: rgb(14, 12, 12);
 }
 
+/* About Section */
+
 #about {
     background-color: #fff;
     color: #333;
@@ -142,6 +145,15 @@ section {
     margin-top: 20px;
     width: 200px;
 }
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Servies Section */
 
 .services {
     background-color: #f4f4f4;
@@ -171,11 +183,20 @@ section {
     text-align: center;
 }
 
+/* Gallery Section */
+
 .gallery {
     background-color: #fff;
     color: #333;
     padding: 60px 20px;
     text-align: center;
+}
+
+.gallery p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 #portfolio h2 {
@@ -236,6 +257,8 @@ section {
     border-radius: 10px;
 }
 
+/* Contact Section */
+
 .contact {
     background-color: #f4f4f4;
     color: #333;
@@ -248,7 +271,7 @@ section {
     margin-bottom: 20px;
 }
 
-.about p, .gallery p, .contact p {
+.contact p {
     font-size: 18px;
     line-height: 1.6;
     max-width: 800px;
