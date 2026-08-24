@@ -29,14 +29,17 @@
         </nav>
     </header>
 
-    <section class="contact" id="contact">
-        <div class="contact-content">
+    <section id="contact">
+        <div class="contact-container">
             <h2>Contact Us</h2>
             <p>If you have any questions or would like to book a photography session, please feel free to reach out to us. We would love to hear from you!</p>
             <form action="#" method="post">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" required></textarea>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
                 <button type="submit">Send Message</button>
             </form>
         </div>
