@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 /* Home Section */
 body {
     font-family: "Roboto", sans-serif;
@@ -259,13 +265,6 @@ section {
 
 /* Contact Section */
 
-.contact {
-    background-color: #f4f4f4;
-    color: #333;
-    padding: 60px 20px;
-    text-align: center;
-}
-
 #contact h2 {
     font-size: 32px;
     margin-bottom: 20px;
@@ -278,25 +277,36 @@ section {
     margin: 0 auto;
 }
 
-.contact-content {
+.contact-container {
     max-width: 600px;
     margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.contact-content form {
+.contact-container form {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.contact-content input, .contact-content textarea {
+.contact-container label {
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.contact-container input, .contact-container textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
 }
 
-.contact-content button {
+.contact-container button {
     background-color: rgb(255, 72, 0);
     color: #fff;
     padding: 10px 20px;
@@ -307,6 +317,12 @@ section {
     transition: background-color 0.3s ease;
 }
 
-.contact-content button:hover {
+.contact-container button:hover {
     background-color: rgb(229, 83, 61);
+}
+
+@media (max-width: 768px) {
+    .hero-content, .about p, .services-content, .gallery-content, .contact-container {
+        padding: 20px;
+    }   
 }
